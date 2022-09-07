@@ -1,0 +1,16 @@
+.Navbar {
+	display: flex;
+	justify-content: space-around;
+	margin: 2rem;
+}
+
+.Navbar a {
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+
+.Navbar a.active {
+	font-weight: bold;
+	color: black;
+}
+
